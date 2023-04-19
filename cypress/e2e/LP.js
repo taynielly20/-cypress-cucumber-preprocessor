@@ -8,7 +8,7 @@ import {
 import {landingPage} from "../pages/landingPage";
 
 Given("Que já acessei minha LP", () => {
-    cy.visit("https://api.new.mentorama.com.br/storage/media-files/QA1/M3/2/tarefa_2.html");
+    cy.visit("/");
 });
 
 When("Preenchi o campo data", () => {
